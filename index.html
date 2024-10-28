@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Fotografias</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="Icon" href="foto.png">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Portifólio Designer</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="trabalhos.html">Trabalhos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </div>
+</header>
+
+<div class="contatinho">
+    <section id="home">
+        <img src="logo.PNG">
+        <p><strong>Bem-vindo ao meu portfólio!!</strong> <br> Capture momentos, conte histórias.</p>
+        <br>
+        <div class="gallery">
+            <img src="Clara 2.jpg" width="600" height="500" alt="Foto propria">
+            <br> <br>
+        </div>
+        <h2>Vamos fazer um orçamento SEM COMPROMISSO!!</h2>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+        
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+    
+                <label for="evento">Evento destinado:</label><br>
+                <select id="evento" name="evento">
+                    <option value="Casamento">Casamento</option>
+                    <option value="Festa de Aniversário">Festa de Aniversário</option>
+                    <option value="Formatura">Formatura</option>
+                    <option value="Outro">Outro</option>
+                </select><br><br>
+        
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    
+<footer>
+    <p>&copy; 2024 Fotografia. Todos os direitos reservados.</p>
+</footer>
+
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+</html>
